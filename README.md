@@ -1,4 +1,4 @@
-# A-predictive-hybrid-ROM-model-based-on-proper-orthogonal-decomposition-with-DL-architetcures
+# A-predictive-hybrid-ROM-model-based-on-proper-orthogonal-decomposition-with-DL-architectures
 Code of the paper: "A predictive hybrid reduced order model based on proper orthogonal decomposition combined with deep learning architectures"
 
 This repository contains the code and dataset files for the paper: "A predictive hybrid reduced order model based on proper orthogonal decomposition combined with deep learning architectures", R. Abadia-Heredia, M. Lopez-Martin, B. Carro, J.I. Arribas, J.M. Perez and S. Le Clainche.
