@@ -5,10 +5,10 @@ This repository contains the code and dataset files for the paper: "A predictive
 
 All code files are available in this (github) repository. The description of the different files is as follows:
 
-- Cilin3D_20 v2.0.ipynb: It provides an implementation of the CNN1D and LSTM models for the cilind3d_Mat dataset. It includes the initial SVD transformation. 
+- Cilin3D_20 v2.0.ipynb: It provides an implementation of the CNN1D and LSTM models for the cilind3d_Mat dataset. It includes the initial SVD transformation. The code provides the results obtained with the original full dataset. If the code is executed with the reduced version of the dataset that is provided here (link below), there are a few lines of code that need to be changed. These lines of code are explicitly marked.
 
 The code is prepared to make predicitions with k snapshots used as predictors to predict p time-ahead snaphots. In particular, in the code are used: p = 6 and k = 10. The results included in the paper present only the first time-ahead prediction (of the p available). 
 
-The code and the dataset provided in this repository represent a representative example of the models and datasets used in the paper. The original raw dataset used as an example is provided in the following repository: https://data.mendeley.com/v1/datasets/stdf3z6p2f/draft?a=e8156ec1-f1e9-487d-9b91-fc81025d33f9 
+The code and the dataset provided in this repository represent a representative example of the models and datasets used in the paper. A reduced version of the original dataset used in the paper is provided in the following repository: https://data.mendeley.com/v1/datasets/stdf3z6p2f/draft?a=e8156ec1-f1e9-487d-9b91-fc81025d33f9 
 
 The code can be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
